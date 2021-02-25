@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+  
+.content-wrapper {
+  background-color: #ecf0f5 !important;
+}
+
+body {
+  background-color: #ecf0f5 !important;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: black;
+  font-family: 'PT Serif';
+}
+
+.h1-wrapper p {
+  font-style: italic;
+}
+
+.h1-wrapper {
+  margin-bottom: 20px;
+}
+
+.small-box {
+  background-color: #11111100 !important;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  color: #333333 !important;
+}
+
+.row h4 {
+    margin-left: 14px;
+    font-weight: bold;
+}
+
+.row p {
+  margin-left: 14px;
+}
+
+.top-row-shrink {
+  padding: 0px 30px;
+}
+
+.form-group {
+  margin-left: 15px;
+}
+
+.inner {
+  position: relative;
+  min-height: 225px;
+  
+}
+
+.inner p {
+  position: absolute;
+  left: 0px;
+  bottom: 1px;
+}
+
+.col-sm-2 {
+  position: relative;
+}
+.col-sm-2 .plotly.html-widget {
+  position: absolute;
+  top: -13px;
+  left: -11px;
+}
+
+.h1-wrapper h1 {
+  padding: 0 20px;
+}
+
+.logo-wrapper {
+    display: FLEX;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.h1-wrapper img {
+  position: absolute;
+  top: 15px;
+  right: 42px;
+  height: 75px
+}
